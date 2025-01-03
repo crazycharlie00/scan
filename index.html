@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search™ AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="media/s_logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="vignette"></div>
+    <canvas id="particleCanvas"></canvas>
+    <div class="container fade-in">
+        <nav class="fade-in">
+            <div class="logo">
+                <img src="media/logo_nobg.png" alt="eye logo">
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-button">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span class="tooltip">How it works</span>
+                </a>
+                <a href="https://pump.fun/" class="nav-button contact-link" target="_blank">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span class="tooltip">Pumpfun</span>
+                </a>
+                <a href="https://x.com/search__ai" class="nav-button preview-link" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <span class="tooltip">Twitter</span>
+                </a>
+            </div>
+        </nav>
+
+        <section class="hero fade-in">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Experience <span class="gradient-text">search™</span></h1>
+                </div>
+            </div>
+            <div class="terminals-container">
+                <div class="terminal-content">
+                    <div class="chat"></div>
+                    <div class="action-row">
+                        <div class="input">
+                            <input type="text" placeholder="Paste a contact address to search">
+                            <button>
+                                <svg fill="none" width="24px" height="24px" viewBox="0 0 32 32" id="Outlined" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Send Icon</title>
+                                    <g id="Fill">
+                                        <path d="M28.11,13.32,2.13,2.1,7.44,14.85a3.05,3.05,0,0,1,0,2.3L2.13,29.88l26-11a3,3,0,0,0,0-5.51ZM27.31,17,5.87,26.12l3.41-8.2A4.42,4.42,0,0,0,9.56,17H20V15H9.56a4.42,4.42,0,0,0-.28-.92L5.87,5.9l21.45,9.25a1,1,0,0,1,.6.92A1,1,0,0,1,27.31,17Z"/>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="log-window">
+                    <div class="log-header">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Search Logs</span>
+                    </div>
+                    <div class="log-content"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
